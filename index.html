@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Document</title>
+</head>
+<body class="bg-white overflow-hidden ">
+    <section class="flex flex-col justify-center items-center  w-screen h-screen">
+    <div class=" flex flex-col   shadow-2xl w-1/2 m-10  ">
+<h1 class="text-3xl p-10"> Caculator</h1>
+<h1 class="text-xl p-5">Select Hood Math</h1>
+<input id="firstNum" type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs h-11 m-5">
+
+
+<h1 class="text-xl p-5"> Num 1</h1>
+<select class="select select-error w-full max-w-xs m-5">
+    <option disabled selected>Select Hood Math</option>
+    <option>+</option>
+    <option>-</option>
+    <option>*</option>
+    <option>/</option>
+  </select>
+
+<h1 class="text-xl p-5"> Num 2</h1>
+
+<input id="secendNum" type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs h-11 m-5">
+
+<button class="btn bg-blue-700 text-white border-0 hover:bg-slate-50 hover:text-blue-700 hover:border-blue-700 hover:border-2 m-10" onclick="calculate()">Button</button>
+<p id="result" class="text-3xl text-green-400 flex flex-col w-full justify-center items-center mb-5 "> result</p>
+    </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- script js-->
+    <script src="./script.js"></script>
+</body>
+</html>
